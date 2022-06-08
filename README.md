@@ -1,9 +1,13 @@
 # tfidf_yontemi_ile_anahtarkelime_ve_ozet_tahmini
 
 TF-IDF Yöntemiyle Özetten Anahtar Kelime Tahmini
+
 TF= Term Frequency / Terim Sıklığı
+
 IDF= Inverse Document Frequency / Ters Döküman Sıklığı
+
 Terim sıklığı=seçili kelimemizin, metin içinde bulunan toplam kelimeler sayısına bölümüdür.
+
 Ters Doküman Sıklığı= Metinlerimizin kaçında kelimemiz var bunu gösterir. Toplam metin adetimizin kelimemizi içeren metin adetine bölümünün logaritmasıdır.
 Aşamalarım:
 İlk olarak dergipark.com dan dergileri çektim.Ardından  bu dergilerden en çok makale bulunan “Akademik Bakış Uluslararası Hakemli Sosyal Bilimler Dergisi” adlı derginin verilerini (başlık,alt_başlık, özet,anahtar_kelime) .csv uzantısına çevirdim.Ardından pandas kütüphanesi ile bu verileri okudum ve bu projede bana lazım olacak kısımları yani özet ve anahtar kelimeleri bir sözlük tipinde ki değişkenime kaydettim.5 adımda sonuca ulaştım;
