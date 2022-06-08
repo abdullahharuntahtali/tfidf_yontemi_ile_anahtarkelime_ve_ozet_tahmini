@@ -1,0 +1,1 @@
+# tfidf_yontemi_ile_anahtarkelime_ve_ozet_tahmini
